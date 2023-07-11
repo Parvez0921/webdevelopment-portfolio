@@ -116,3 +116,16 @@ main{
     font-size: 20px;
     font-weight: 700;
 }
+#wid{
+    padding: 30px 150px;
+}
+.skill-cont{
+    display: flex;
+    justify-content: center;
+}
+.skill{
+    margin-right: 60px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    
+}
