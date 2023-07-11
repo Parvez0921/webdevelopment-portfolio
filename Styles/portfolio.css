@@ -81,6 +81,9 @@ main{
     margin: 0 auto;
 
 }
+main section{
+    margin-top: 130px;
+}
 /*about section styles*/
 .about{
     padding: 150px;
@@ -121,11 +124,43 @@ main{
 }
 .skill-cont{
     display: flex;
+    gap: 24px;
     justify-content: center;
 }
 .skill{
-    margin-right: 60px;
-    background-color: #FFFFFF;
-    padding: 20px;
     
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+    
+}
+.skill-des{
+    color: #757575;
+}
+.res-cont{
+    display: flex;
+    gap: 70px;
+    margin: 30px;
+}
+.res-tit{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.res-det{
+    margin-top: 30px;
+}
+.deg{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.inst{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.down-cv{
+    text-align: center;
 }
